@@ -1,0 +1,76 @@
+doctype html
+html
+  head
+    title Career Builder - Dashboard
+    style(type='text/css').
+      p {
+      padding-left: 20px;
+      font-weight: bold;
+      }
+      input[type=text] {
+      color: grey;
+      padding-left: 20px;
+      }
+      .submitbtn {
+      padding-left: 20px;
+      color: blue;
+      font-weight: bold;
+      }
+  body
+    h1 Career dasboard
+    img(src='./slide1.jpg')
+    table
+      tr
+        td
+          div(style='color:#0000FF')
+            input.submitbtn(type='submit', name='availableTasks', value='Available Tasks')
+            br
+            input.submitbtn(type='submit', name='availableTasks', value='Submitted Tasks')
+            br
+            input.submitbtn(type='submit', name='availableTasks', value='Accepted Tasks')
+            br
+            input.submitbtn(type='submit', name='availableTasks', value='Finished Tasks')
+            br
+            br
+            br
+            input.submitbtn(style='color:#000000', type='submit', name='availableTasks', value='Create Tasks')
+            br
+        td
+          div
+            table
+              tr
+                div(label='task1')
+                  | Task:Resume
+                  br
+                  |                             Requester:Harry Potter
+                  br
+                  |                             Task Function:Finance
+                  br
+                  |                             Task Industry:Consumer Goods
+                  br
+                  br
+                  br
+              tr
+                div(label='task2')
+                  | Task:Resume
+                  br
+                  |                             Requester:Sherlock Holmes
+                  br
+                  |                             Task Function:Marketing
+                  br
+                  |                             Task Industry:Any
+                  br
+                  br
+                  br
+              tr
+                div(label='task3')
+                  | Task:Resume
+                  br
+                  |                             Requester:Ashok Poothiyot
+                  br
+                  |                             Task Function:PM
+                  br
+                  |                             Task Industry:Tech
+                  br
+                  br
+                  br
